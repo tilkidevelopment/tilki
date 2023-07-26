@@ -3,7 +3,7 @@
     <img width="300" src="https://tilki.neocities.org/resim/tilki.png" alt="tilkidev.js">
   </a>
 </p>
-<p align="center">TilkiDev.js gücünü aoi.js'den alıyor!</p>
+<p align="center"><a href="https://aoi.js.org">TilkiDev.js gücünü aoi.js'den alıyor!</a></p>
 
 ---
 
