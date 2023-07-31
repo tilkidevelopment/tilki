@@ -1,15 +1,17 @@
 <p align="center">
-  <a href="https://docs.tilki.dev">
-    <img width="300" src="https://tilki.neocities.org/resim/tilki.png" alt="tilkidev.js">
+  <a href="https://docs.modul.tilki.dev">
+    <img width="300" src="https://tilki.neocities.org/resim/tilki.png" alt="tilki">
   </a>
 </p>
-<p align="center"><a href="https://aoi.js.org">TilkiDev.js gücünü aoi.js'den alıyor!</a></p>
+<center>
+<p>Tilki gücünü aoi.js'den alıyor!</p>
+</center>
 
 ---
 
 <div align = "center">
 
-**[ Doküman (Yakında) ](https://docs.tilki.dev)** | **[ Destek Sunucusu ](https://tilki.dev/discord)** | **[ Website ](https://tilki.dev/)** | **[ NPM ](https://npmjs.org/package/tilkidev.js)** | **[ GitHub ](https://github.com/akaruidevelopment/tilkidev.js)**
+**[ Doküman (Yakında) ](https://docs.modul.tilki.dev)** | **[ Destek Sunucusu ](https://tilki.dev/discord)** | **[ Website ](https://tilki.dev/)** | **[ Replit ](https://replit.com/@tilkidevelopment/tilki)** | **[ GitHub ](https://github.com/codetilki/tilki)**
 
 </div>
 
@@ -17,13 +19,13 @@
 
 ## Bilgi
 
-Bu modül aoi.js'de zorlananlara yaptım inşallah beyenirsiniz <3
+Bu modül aoi.js'de zorlananlara yaptım inşallah beğenirsiniz <3
 
 ## İndirme
 
 ```bash
 ### npm
-npm i tilkidev.js
+npm i tilki
 ```
 
 ### Main
@@ -43,24 +45,16 @@ intents: ["MessageContent", "Guilds", "GuildMessages"],
 
 
 
-const { Tilki } = require("tilkidev.js");
+const { Tilki } = require("tilki");
 const tilki = new Tilki({ bot:bot });
-tilki.TilkiDev();
+tilki.yeniTilki();
 
 
 bot.command({
   name: "tilki-sürüm",
-  code: `$tilkiv`
+  code: `$tilkiV`
 })
 ```
 
-## Kısaca :D
-
-```mermaid
-graph LR
-
-A[aoi.js] --> B[tilkidev.js]
-```
-
 ## Lisans
-TilkiDev.js'nin lisans'ı var B) [MIT Lıstence](./LICENSE).
+Tilki'nin lisans'ı var B) [MIT LICENSE](./LICENSE.txt).
